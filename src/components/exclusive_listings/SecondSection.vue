@@ -12,7 +12,7 @@
           >
             <div class="border-thin elevation-24 rounded-xl d-flex flex-column h-100">
               <v-card class="d-flex flex-column h-100" :class="`cursor-${cursors}`">
-                <a href="./details">
+                <a href="/details">
                   <v-img
                     :src="service.src"
                     cover
