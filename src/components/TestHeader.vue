@@ -2,7 +2,7 @@
   <div>
     <!-- App bar for larger screens -->
     <v-app-bar app fixed class="app-bar" v-if="!smAndDown">
-      <router-link to="/home" class="nav">
+      <router-link to="/" class="nav">
         <v-toolbar-title class="toolbar-title text-black"
           style="font-size: 24px; font-weight: 900; text-transform: uppercase"
           @click="scrollToContainer">
@@ -12,7 +12,7 @@
       <v-spacer></v-spacer>
       <v-row align="center" justify="end" class="flex-container">
         <v-col cols="auto">
-          <router-link to="/home" class="nav">
+          <router-link to="/" class="nav">
             <v-btn class="text-black list-title text">Home</v-btn>
           </router-link>
         </v-col>
@@ -57,7 +57,7 @@
     <v-navigation-drawer app v-if="smAndDown" v-model="drawer" temporary>
       <v-list dense>
         <v-list-item class="text">
-          <router-link to="/home" class="nav">
+          <router-link to="/" class="nav">
             <v-list-item-title>Home</v-list-item-title>
           </router-link>
         </v-list-item>
